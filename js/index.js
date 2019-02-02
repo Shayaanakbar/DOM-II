@@ -1,5 +1,7 @@
 // Your code goes here
 
+
+
 let logo = document.querySelector('.logo-heading');
 
 window.addEventListener('scroll', function(e) {
@@ -103,6 +105,7 @@ button.forEach(function(index, i){
             e.target.textContent = 'You\'re all Signed up!' 
         });
     });
+    
     
 button.forEach(function(index, i){
     button[i].addEventListener('dblclick', function(e){
